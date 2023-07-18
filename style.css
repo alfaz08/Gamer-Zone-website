@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+head{  
+font-family: 'Work Sans', sans-serif;
+}
+body{
+font-family: 'Work Sans', sans-serif;
+}
+/* navbar start rightside */
+
+.nav-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.logo-container{
+   display: flex;
+   width: 50%;
+   align-items: center;
+}
+.logo-container img{
+  width: 90px;
+  height: 60px;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+.logo-container p{
+  text-align: center;
+  font-size: 50px;
+}
+/* Navbar Leftside */
+.nav-item-container{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item-container a{
+  text-decoration: none;
+  
+ font-size: 30px;
+ color: #3C354F;
+}
+.hive-section{
+  color: #ff42a4;
+}
+
+.navbar-icon{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 70px;
+  border-radius: 8px;
+  background: rgba(11, 2, 34, 0.1);
+  padding: 35px;
+}
+.navbar-icon p{
+ font-size: 24px;
+ color: #3C354F;
+ 
+}
