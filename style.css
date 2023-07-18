@@ -1,13 +1,16 @@
 *{
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Work+Sans&display=swap');
 
 head{  
-font-family: 'Work Sans', sans-serif;
+
+  font-family: 'Work Sans', sans-serif;
 }
 body{
-font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+
 }
 /* navbar start rightside */
 
@@ -66,4 +69,100 @@ font-family: 'Work Sans', sans-serif;
  font-size: 24px;
  color: #3C354F;
  
+}
+
+
+/* banner section */
+
+/* .banner-container{
+  height: 100vh;
+  background-image: url("./image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+ 
+
+
+.banner{
+  border: 1px solid red;
+  /* max-width: 1600px; */
+  margin: 0 auto;
+  display: flex;
+
+}
+
+
+
+
+
+
+.goat{
+  width:50%;
+  height: auto;
+  background-image: url("./images/Group14.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.goat-banner{
+  /* margin-top: 100px; */
+  
+  
+}
+.goat-banner h2{
+ border: 1px solid red;
+ padding-left: 150px;
+ font-family: Work Sans;
+  font-size: 48px;
+}
+.goat-banner h1{
+  border: 1px solid red;
+    /* background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip:text; */
+    
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    padding-left: 150px;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+  }
+
+.span{
+  border: 1px solid red;
+  padding-left: 150px;
+}
+
+
+
+
+
+
+.banner-btn{
+ display: flex;
+ gap: 20px;
+ padding-left: 150px;
+}
+
+
+
+
+.goat-img{
+  width: 50%;
+  border: 1px solid royalblue;
+}
+.goat-img img{
+  border: 1px solid slategray;
+    padding-left: 75px;
+    height: 100%;
 }
