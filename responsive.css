@@ -13,114 +13,137 @@
 
   @media screen and (max-width:426px){
 
-  .nav-container{
-    flex-direction: column;
-  }
-  .logo-container {
-    justify-content: center;
- }
-
-  .nav-item-container{
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
-  }
-  .nav-item-container a{
-    margin-top: 30px;
-  }
-  .nav-item-container,.navbar-icon{
-    margin-top: 30px;
-  }
-  .banner{
-    flex-direction: column-reverse;
-    align-items: center;
-  }  
-  .faw{
-    width:100%;
-    align-items: center;
-    text-align: center;
-  }
-  .play{
-      font-size: 30px; 
-  }
-  .no{
+    .nav-container{
+      flex-direction: column;
+    }
+    .logo-container {
+      justify-content: center;
+   }
+  
+    .nav-item-container{
+      flex-direction: column;
+  
+      align-items: center;
+      justify-content: center;
+    }
+    .nav-item-container a{
+      margin-top: 30px;
+    }
+    .nav-item-container,.navbar-icon{
+      margin-top: 30px;
+    }
+    .banner{
+      flex-direction: column-reverse;
+      align-items: center;
+    }  
+    .faw{
+      width:100%;
+      align-items: center;
+      text-align: center;
+    }
+    .play{
+        font-size: 30px; 
+    }
+    .no{
+      
+        font-size: 40px;
+       
+    }
+    li{
+      
+      font-size: 16px;
     
-      font-size: 40px;
+    }
+    .banner-btn{
+      text-align: center;
+      align-items: center;
+      margin-left: 130px;
+      
+     }
+    .sign-in{
+    
+      background-color: #ff42a4;
+      width: 80px;
+      height: 30px;
+    
+    }
+    .go-rogue{
      
-  }
-  li{
-    
-    font-size: 16px;
+      background-color: #4EC5F7;
+      width: 80px;
+      height: 30px;
+    }
   
-  }
-  .banner-btn{
-    text-align: center;
-    align-items: center;
-    margin-left: 130px;
+    .play-instant-container{
+      flex-direction: column;
+      
+    }
+    .play-instant-des{
+      padding: 100px;
+      
+      
+    }
+    .play-instant-img img{
+      padding-left: 20px;
+      height: auto;
+    }
+    .game-container
+    {  
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     
+      justify-content: center;
+      align-content: center;
+  justify-content: center;
+  align-content: center;
+    }
+    .top-game{
+      width: 200px;
+    }
+    .top-game p{
+      font-weight:100;
+    }
     
-   }
-  .sign-in{
-  
-    background-color: #ff42a4;
-    width: 80px;
-    height: 30px;
-  
-  }
-  .go-rogue{
-   
-    background-color: #4EC5F7;
-    width: 80px;
-    height: 30px;
-  }
-
-  .play-instant-container{
-    flex-direction: column;
-    
-  }
-  .play-instant-des{
-    padding: 100px;
-    
-    
-  }
-  .play-instant-img img{
-    padding-left: 20px;
-    height: auto;
   }
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*Tablet Device*/
+  @media screen and (min-width:426px) and (max-width:768px) {
+    
+    .nav-item-container{
+      justify-content: center;
+      align-items: center;
+    }
+    .nav-item-container a{
+      font-size: 15px;
+      gap: 5px;
+    }
+    .navbar-icon{
+      gap: 5px;
+      padding: 35px;
+    }
+    .navbar-icon p{
+      font-size: 15px;
+     }
+  .game-container
+{  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.top-game{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
  
-  
 }
 
-
-
-
-
-
-
-
-
-
-
-/*Tablet Device*/
-@media screen and (min-width:426px) and (max-width:768px) {
   
-  .nav-item-container{
-    justify-content: center;
-    align-items: center;
   }
-  .nav-item-container a{
-    font-size: 15px;
-    gap: 5px;
-  }
-  .navbar-icon{
-    gap: 5px;
-    padding: 35px;
-  }
-  .navbar-icon p{
-    font-size: 15px;
-   }
-
-   
-
-}

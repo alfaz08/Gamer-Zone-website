@@ -264,21 +264,20 @@ figcaption{
   display: flex;
 }
 .play-instant-des{
-  border: 1px solid red;
+
   width: 40%;
    min-height: 25px;
    text-align: right;
-   margin-top: 200px;
-   padding-right: 30px;
+   padding-left: 120px;
 }
 .play-instant-img{
-  border: 1px solid seagreen;
+  
   width: 60%;
    min-height: 25px;
    position: relative;
 }
 .play-instant-img img{
-  /* width: 100%; */
+  width: 100%;
    border-radius: 20px;
    padding-left: 140px;
 
@@ -290,9 +289,9 @@ figcaption{
   display: block;
   /* margin: 0 auto; */
   position: absolute;/*Absolute mane tar original position onujai move korbe sob dike*/
-  
-  left: -20%;
-  bottom: -12%;
+  width: 60%;
+  left: -14%;
+  bottom: -15%;
 }
 
 .playy{
@@ -302,11 +301,44 @@ figcaption{
   text-align: left;
   align-items: center;
 }
-
 .instant{
   color: #F948B2;
 }
 .para{
   font-size: 20px;
-  text-align: center;
+  text-align:justify;
+}
+
+
+.game-container
+{   margin-top: 100px;
+   max-width: 1300px;
+   margin: 150px auto 0;
+   display: flex;
+   height: 220px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.top-game{
+
+ width: 250px;
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ border-radius: 35px;
+ text-align: center;
+ align-items: center;
+}
+.top-game p{
+  font-weight: 800;
+}
+.top-game:hover{
+  border: 1px solid #F948B2;
+  cursor: pointer;
+}
+.top-game p:hover{
+  color: #F948B2;
 }
