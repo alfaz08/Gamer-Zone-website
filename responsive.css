@@ -32,6 +32,50 @@
   .nav-item-container,.navbar-icon{
     margin-top: 30px;
   }
+  .banner{
+    flex-direction: column-reverse;
+    align-items: center;
+  }  
+  .faw{
+    width:100%;
+    align-items: center;
+    text-align: center;
+
+  }
+  .play{
+      font-size: 30px; 
+  }
+  .no{
+    
+      font-size: 40px;
+     
+  }
+  li{
+    
+    font-size: 16px;
+  
+  }
+  .banner-btn{
+    text-align: center;
+    align-items: center;
+    margin-left: 130px;
+    
+   }
+  .sign-in{
+  
+    background-color: #ff42a4;
+    width: 80px;
+    height: 30px;
+  
+  }
+  .go-rogue{
+   
+    background-color: #4EC5F7;
+    width: 80px;
+    height: 30px;
+  }
+
+
 }
 
 
@@ -62,5 +106,7 @@
   .navbar-icon p{
     font-size: 15px;
    }
+
+   
 
 }
