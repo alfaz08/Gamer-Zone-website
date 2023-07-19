@@ -198,8 +198,7 @@ li{
   -webkit-text-fill-color: transparent;
 }
 .card{
- 
-  min-height: 25px;
+   
   display: flex;
   gap: 20px;
 }
@@ -253,4 +252,63 @@ li{
 }
 figcaption{
   margin-top: 10px;
+}
+
+
+/* play instant section */
+.play-instant-container{
+  max-width: 1300px;
+   
+  margin: 40px auto 0;
+  min-height: 25px;
+  display: flex;
+}
+.play-instant-des{
+  
+  width: 40%;
+   min-height: 25px;
+   text-align: right;
+   margin-top: 200px;
+   padding-right: 30px;
+}
+.play-instant-img{
+
+  width: 60%;
+   min-height: 25px;
+   position: relative;
+}
+.play-instant-img img{
+  /* width: 100%; */
+   border-radius: 20px;
+   padding-left: 140px;
+}
+.other-img{
+ 
+}
+.other-img img{
+  display: block;
+  /* margin: 0 auto; */
+  position: absolute;/*Absolute mane tar original position onujai move korbe sob dike*/
+  
+  left: -20%;
+  bottom: -12%;
+}
+
+.playy{
+  padding-top: 100px;
+   font-size: 30px;
+  font-family: Work Sans;
+  text-align: left;
+  align-items: center;
+}
+span{
+  text-align: left;
+  margin: 10px;
+}
+.instant{
+  color: #F948B2;
+}
+.para{
+  font-size: 20px;
+  text-align: center;
 }
