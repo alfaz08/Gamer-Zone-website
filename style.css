@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  
 }
 
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Work+Sans&display=swap');
@@ -168,4 +169,88 @@ li{
    /* padding-right:80px; */
     height: 100%;
     width: 100%;
+}
+
+
+/* Online Games section */
+.online-game{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.online-game h2{
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+.online-game p{
+  
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.funny{
+  
+  font-size: 50px;
+  font-weight: 900;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card{
+ 
+  min-height: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+
+.video-container img{
+  
+  width: 100%;
+  height: 100%;
+} 
+
+
+.video-container {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+
+.thumbnail {
+  width: 300px; 
+  height: auto;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  opacity: 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:3px solid #F948B2;
+  border-radius: 10px;
+}
+
+
+.watch-now-button {
+  padding: 10px 20px;
+  color:#F948B2;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.video-container:hover .overlay {
+  opacity: 1;
+}
+figcaption{
+  margin-top: 10px;
 }
