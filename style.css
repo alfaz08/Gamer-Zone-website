@@ -264,7 +264,7 @@ figcaption{
   display: flex;
 }
 .play-instant-des{
-  
+  border: 1px solid red;
   width: 40%;
    min-height: 25px;
    text-align: right;
@@ -272,7 +272,7 @@ figcaption{
    padding-right: 30px;
 }
 .play-instant-img{
-
+  border: 1px solid seagreen;
   width: 60%;
    min-height: 25px;
    position: relative;
@@ -281,6 +281,7 @@ figcaption{
   /* width: 100%; */
    border-radius: 20px;
    padding-left: 140px;
+
 }
 .other-img{
  
@@ -301,10 +302,7 @@ figcaption{
   text-align: left;
   align-items: center;
 }
-span{
-  text-align: left;
-  margin: 10px;
-}
+
 .instant{
   color: #F948B2;
 }
