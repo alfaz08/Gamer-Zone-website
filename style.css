@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  
+ 
 }
 
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Work+Sans&display=swap');
@@ -333,7 +333,8 @@ figcaption{
  align-items: center;
 }
 .top-game p{
-  font-weight: 800;
+  font-weight: 700;
+
 }
 .top-game:hover{
   border: 1px solid #F948B2;
@@ -341,4 +342,45 @@ figcaption{
 }
 .top-game p:hover{
   color: #F948B2;
+}
+/*Footer Section*/
+footer{
+  background-color: black;
+    height: 500px;
+}
+.footer{
+  max-width: 1300px;
+  margin: 0 auto;
+   
+}
+
+.footer-logo{
+  color: white;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.footer-all p{
+  font-size: 20px;
+  font-weight: 300;
+}
+.footer-all{
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.footer-icon{
+  text-align: center;
+}
+.footer-policy{
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap:50px;
+}
+.footer-last{
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
