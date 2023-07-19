@@ -152,6 +152,38 @@
    justify-content: center;
   }  
 
+
+  .play-instant-container{
+    flex-direction: column;
+    margin-top: -10px;
+  }
+  .play-instant-des{
+    border: 1px solid red;
+   margin: 0;
+  
+     text-align: right;
+     /* padding-left: 60px;
+    padding-top: 80px; */
+    text-align: center;
+  }
+  .play-para{
+    text-align: justify;
+  }
+.feature{
+  flex-direction: column;
+
+}
+.feature-img img{
+  width: 100%;
+}
+.img-badge img{
+  width: 200px;
+height: 280px;
+position: relative;
+bottom:180px;
+left: -40px;
+}
+
   }
   
   
@@ -215,5 +247,9 @@
  grid-template-columns: 2;
  justify-content: center;
 }  
+.feature{
+  flex-direction: column;
+
 
  }
+}

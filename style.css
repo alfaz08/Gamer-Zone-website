@@ -252,46 +252,50 @@ li{
 }
 
 
-/* play instant section */
-.play-instant-container{
+/*feature content*/
+.feature{
+  /* margin-top: 30px; */
   max-width: 1300px;
-   
-  margin: 40px auto 0;
-  min-height: 25px;
+  margin:30px auto 0;
   display: flex;
+  padding-top: 50px;
 }
-.play-instant-des{
 
-  width: 40%;
-   min-height: 25px;
-   text-align: right;
-   padding-left: 120px;
+.img-badge img{
+  width: 318px;
+height: 365px;
+position: relative;
+bottom:250px;
+left: -80px;
 }
-.play-instant-img{
+.feature-img img{
   
-  width: 60%;
-   min-height: 25px;
-   position: relative;
 }
-.play-instant-img img{
-  width: 100%;
-   border-radius: 20px;
-   padding-left: 140px;
-
+.card-content{
+  font-size: 12px;
+  padding-top: 50px;
 }
-.other-img{
- 
-}
-.other-img img{
-  display: block;
-  /* margin: 0 auto; */
-  position: absolute;/*Absolute mane tar original position onujai move korbe sob dike*/
-  width: 60%;
-  left: -14%;
-  bottom: -15%;
-}
-
 .playy{
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #F948B2;
+}
+.playyy{
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+.playyyy{
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+.palyyyyy{
+  color: gray;
+}
+
+/* .playy{
   padding-top: 100px;
    font-size: 30px;
   font-family: Work Sans;
@@ -304,13 +308,13 @@ li{
 .para{
   font-size: 20px;
   text-align:justify;
-}
+} */
 
-
+/*Game container section*/
 .game-container
-{   margin-top: 100px;
+{ 
    max-width: 1300px;
-   margin: 150px auto 0;
+   margin:0 auto;
    display: flex;
    height: 220px;
   gap: 10px;
