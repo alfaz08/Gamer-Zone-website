@@ -114,17 +114,17 @@
   .footer-all{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-content: center;
+    padding:15px;
   }
   .footer-icon{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-content: center;
   }
   .footer-policy{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    justify-content: center;
+    padding-left: 40px;
+
   }
   .footer-last{
     display: grid;
@@ -178,7 +178,7 @@
 .footer-all{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-
+   padding-left: 70px;
 }
 .footer-icon{
   display: grid;
@@ -188,7 +188,7 @@
 .footer-policy{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-
+  padding-left: 90px;
 }
 .footer-last{
   display: grid;
